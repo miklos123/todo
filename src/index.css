@@ -273,6 +273,7 @@ footer {
   .todo-card {
     padding: 1.25rem 1rem;
     border-radius: 1rem;
+    max-width: 350px;
   }
 
   .todo-header h1 {
@@ -285,6 +286,8 @@ footer {
 
   .input-row {
     gap: 0.5rem;
+    flex-direction: column;
+    align-items: center;
   }
 
   .input-row input {
@@ -293,8 +296,8 @@ footer {
   }
 
   .input-row button {
-    font-size: 1.05rem;
-    padding: 0.4rem 0.5rem;
+    width: 120px;
+    height: 40px;
   }
 
   .todo-list li {
@@ -309,5 +312,11 @@ footer {
 
   footer {
     font-size: 0.9rem;
+  }
+
+  .toolbar {
+    justify-content: center;
+    margin-bottom: 1rem;
+
   }
 }
